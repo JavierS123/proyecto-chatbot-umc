@@ -25,7 +25,7 @@ function centrarPopup() {
 var gifs = ["./img/default.gif", "./img/sleepstart.gif", "./img/sleeploop.gif"];
 var currentGif = 1;
 var gifIndex = 0
-let intervalID = setInterval(changeGif, 2000);
+let intervalID = setInterval(changeGif, 6000);
 
 
 function changeGif() {
